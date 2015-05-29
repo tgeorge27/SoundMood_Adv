@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Soundmood</title>
+
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- Bootstrap Jumbotron -->
+    <link rel="stylesheet" href="css/jumbotron-narrow.css">
+
+    <!-- JS -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Soundcloud API -->
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <!-- Bootstrap typeahead -->
+    <script src="js/typeahead.js"></script>
+    <!-- Our JS -->
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Soundmood</h1>
+        <p class="lead">Listen to your heart, you can never go wrong.</p>
+        <form>
+          <div class="input-group">
+            <input id="mood" type="text" class="form-control" placeholder="How are you feeling?">
+              <a id="go" class="input-group-addon" href="#" role="button">Go</a>
+          </div>
+        </form>
+
+        <br>
+        <p><a id="random" class="btn btn-lg btn-success" href="#" role="button">Randomize</a></p>
+        <p id="moodstatus"></p>
+        <p id="songtitle"></p>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-10">
+          <h4>Search</h4>
+          <p>Simply type in the mood you are currently in and a song will be generated based on that mood.</p>
+
+          <h4>Hear</h4>
+          <p>We grab all of our songs directly from <a href="http://soundcloud.com">Soundcloud</a>, so there are millions of selections.</a></p>
+
+          <h4>Explore</h4>
+          <p>Using Soundmood, you can find hundreds of songs based on unique mood.</p>
+
+          <h4>Quantity &amp; Quality</h4>
+          <p>Soundmood has a selection of 284 different emotions/mood, so good luck entering one that doesn't exist.</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; Soundmood</p>
+      </div>
+    </div>
+  </body>
+</html>
