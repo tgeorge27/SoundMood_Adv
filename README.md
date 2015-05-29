@@ -1,2 +1,2 @@
 # SoundMoodY2
-Project for ScriptEd's Advanced Curriculum
+This project is designed for ScriptEd's Advanced Curriculum
