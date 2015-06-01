@@ -20,10 +20,16 @@ Your Manager has offered a stipend a $500 for each of the bonus requirements lis
 * Change the color of the jumbotron to match the user's mood
 * Add Bootstrap typeahead to the `#mood` input field
 
+##Learning Objectives
+By the end of this project the employee will be able to...
 
-##References
+* interpret API documentation
+* use basic API calls
 
-* https://developers.soundcloud.com/docs/api/guide
+##References/Tools
+
+* [Presentation Slides](https://docs.google.com/a/scripted.org/presentation/d/18EXatDWSMg6gUf_-Et_Wx50nMKipX1R-Jb0Xs_BSwTE/edit?usp=sharing)
+* [Soundcloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
 * https://www.youtube.com/watch?v=B9vPoCOP7oY
  
 
@@ -31,9 +37,15 @@ Your Manager has offered a stipend a $500 for each of the bonus requirements lis
 You are given Starter Code for this project which you must clone into your own workspace.
 You will notice that there are comments inside the script.js file that provide instructions for how components of this project can be made.  
 
-####In order to make Soundmood functional you will need to complete the four tasks below:
+####In order to make Soundmood functional you will need to complete the five tasks below:
 
-###1) Play a track
+###1) Initialize the Soundcloud API client
+
+1. Go to the [Soundcloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
+2. Find **Your Apps** in the Soundcloud API documentation right side navigation
+3. GEt your API token!
+
+###2) Play a track
 
 Play a track using the Soundcloud API (Reading the Soundcloud documentation will help you figure out how to play a track)
 
@@ -46,14 +58,14 @@ HTTP API GUIDE -> Playing Sounds ->  Streaming sounds
 3. Fill out the `playOneTrack()` function
   * Hint: don’t forget to add `playOneTrack()` to `document.ready()`
 
-###2) Add click handlers
+###3) Add click handlers
 
 Add a click handler for the `#go` button -- make the `#go` button DO something by adding a click handler!
 
 * Hint: you can use Javascript or jQuery for this
 * Hint: call the click handler `playOneTrack()` to play a song when you click the button
 
-###3) Find a track based on the user's mood and play it
+###4) Find a track based on the user's mood and play it
 
 Find a track based on the user’s mood and play it -- make the click handler play a song based on the user's input!
 
@@ -73,7 +85,7 @@ Find a track based on the user’s mood and play it -- make the click handler pl
   2. Play the track for the given `id`
     * Hint: look at `playOneTrack()` for help
 
-###4) Randomization: Make the random button work!
+###5) Randomization: Make the random button work!
 
 1. Fill out the `moodList` array with 10 moods/emotions
   * ex. 'happy', 'sad'
