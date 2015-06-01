@@ -31,7 +31,7 @@ Your Manager has offered a stipend a $500 for each of the bonus requirements lis
 You are given Starter Code for this project which you must clone into your own workspace.
 You will notice that there are comments inside the script.js file that provide instructions for how components of this project can be made.  
 
-####In order to make Soundmood functional! You will need to complete the four tasks below:
+####In order to make Soundmood functional you will need to complete the four tasks below:
 
 ###1) Play a track
 
@@ -83,10 +83,10 @@ Find a track based on the user’s mood and play it -- make the click handler pl
 
 ##Vocabulary
 
-* API
+* API (Application Program Interface)
 * Click Handler
 * Documentation
-* Color gradient
+
 
 ##How to Submit
 This project must be pushed back up to your repo on GitHub. 
