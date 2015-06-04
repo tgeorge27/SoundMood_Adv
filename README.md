@@ -29,27 +29,27 @@ By the end of this project the employee will be able to...
 ##References/Tools
 
 * [Presentation Slides](https://docs.google.com/a/scripted.org/presentation/d/18EXatDWSMg6gUf_-Et_Wx50nMKipX1R-Jb0Xs_BSwTE/edit?usp=sharing)
-* [Soundcloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
+* [SoundCloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
 * https://www.youtube.com/watch?v=B9vPoCOP7oY
  
 
 ##Instructions
 You are given Starter Code for this project which you must clone into your own workspace.
-You will notice that there are comments inside the script.js file that provide instructions for how components of this project can be made.  
+You will notice that there are comments inside the script.js file that provide instructions for how components of this project should be made.  
 
 ####In order to make Soundmood functional you will need to complete the five tasks below:
 
-###1) Initialize the Soundcloud API client
+###1) Initialize the SoundCloud API client
 
-1. Go to the [Soundcloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
+1. Go to the [SoundCloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
 2. Find **Your Apps** in the Soundcloud API documentation right side navigation
-3. GEt your API token!
+3. Get your API token!
 
 ###2) Play a track
 
-Play a track using the Soundcloud API (Reading the Soundcloud documentation will help you figure out how to play a track)
+Play a track using the SoundCloud API (Reading the Soundcloud documentation will help you figure out how to play a track)
 
-1. Read the Soundcloud documentation to figure out how to **stream** (or play) a track
+1. Read the SoundCloud documentation to figure out how to **stream** (or play) a track
 ```
 HTTP API GUIDE -> Playing Sounds ->  Streaming sounds
 ```
@@ -101,7 +101,7 @@ Find a track based on the user’s mood and play it -- make the click handler pl
 
 
 ##How to Submit
-This project must be pushed back up to your repo on GitHub. 
+This project must be pushed back up to your repo on GitHub. Then you will share your link with the instructor
 
 ##Homework
 Instructor will assign homework based on progress in class.
