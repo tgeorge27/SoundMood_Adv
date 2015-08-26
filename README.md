@@ -26,7 +26,7 @@ By the end of this project the employee will be able to...
 ##References/Tools
 
 * [SoundCloud API Documentation](https://developers.soundcloud.com/docs/api/guide)
-* https://www.youtube.com/watch?v=B9vPoCOP7oY
+* [https://www.youtube.com/watch?v=B9vPoCOP7oY](https://www.youtube.com/watch?v=B9vPoCOP7oY)
  
  
 ##Vocabulary
