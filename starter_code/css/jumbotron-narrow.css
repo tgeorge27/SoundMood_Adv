@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color:#E9967A ;
+  background-image: url('Dancing-Gif-Facebook-014.gif')
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -18,7 +20,7 @@ body {
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
-  padding-bottom: 19px;
+  padding-bottom: px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
@@ -44,12 +46,30 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  color:#C25A7C;
+  background-color: pink;
+  font-family: cursive;
+  text-decoration: overline;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  color:purple;
+  background-color: #E9967A;
+  border-radius: 37px 25px ;
+  border-color: blue;
 }
+.jumbotron .btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 /* Supporting marketing content */
 .marketing {
@@ -76,7 +96,7 @@ img {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
